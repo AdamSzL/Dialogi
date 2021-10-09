@@ -10,4 +10,7 @@ implementowany przez każdy z konkretnych State'ów)
 * *friend.py* (konkretna klasa odpowiedzialna za stan *Przyjaciel*, implementuje interfejs State)
 * *enemy.py* (stan *Wróg*)
 * *neutral.py* (stan *Neutralny*)
-* *playerTexts.json* (zawiera przykładowe teksty, które różnią się w zależności, z jaką postacią gracz rozmawia)
+* *conversation.py* (zawiera klasę Conversation, która jest odpowiedzialna za przeprowadzenie konwersacji między
+graczem i postacią, z którą rozmawia)
+* *helper.py* (zawiera funkcje pomagające w przeprowadzeniu konwersacji)
+* *texts.json* (dialog)
