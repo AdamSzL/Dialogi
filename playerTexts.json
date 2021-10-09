@@ -1,0 +1,23 @@
+{
+  "Enemy": [
+    ["Hello, you stupid faggot!", "What is this helpless creature?", "Nice sword! I want it!"],
+    ["Do you want to fight?", "I will teach you how to fight!", "Prepare for death!"],
+    ["I will destroy your hopes and dreams!", "You don't know what you're doing!", "I will kill you!"],
+    ["You are few minutes away from death!", "You will die!", "The world is seconds from your death!"],
+    ["Ha! Ha! Die!", "Hope we'll meet again!", "I hope you learnt something!"]
+  ],
+  "Friend": [
+    ["Hello, how are you?", "Good morning, beautiful creature!", "Nice to meet you!"],
+    ["Where is your sword?", "What happened with your sword?", "I think that you are missing something."],
+    ["I saw somebody selling some good swords!", "We can go to the blacksmith and choose a new one!", "Hopefully you will find a new one!"],
+    ["That's not a problem!", "Don't worry, I can lend you some!", "I have a few nice swords if you want"],
+    ["Take it!", "Be here in one hour!", "Tomorrow I will have it!"]
+  ],
+  "Neutral": [
+    ["Hello, were you fighting?", "Hi, how are you?", "Hi, you look a bit sad, don't you?"],
+    ["I am fine also", "I am ok too. Thanks for asking.", "Ok."],
+    ["I agree", "Yea! I will play some football!", "Ehm, yesterday was better..."],
+    ["You should go to xyz. He is so good!", "I can help you if you want.", "This happened to me also a few days ago"],
+    ["See you next time!", "Have a nice day!", "Bye!"]
+  ]
+}
