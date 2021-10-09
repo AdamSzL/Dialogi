@@ -1,12 +1,18 @@
 from character import State
-import enemy
-import friend
+import json
 
 
 class Neutral(State):
-    def __init__(self):
-        self.texts = ["It's ok. What about you?", "Ok. By the way the weather is really good",
-                      "I have to go to the blacksmith", "Ok.", "Bye!"]
+    def __init__(self, name):
+        file = open('texts.json')
+        self.allTexts = json.load(file)
+        self.texts = []
+        self.name = name
+        self.counter = 0
+        for statement in self.allTexts:
+            if 'enemy' not in statement and 'friend' not in statement and self.name in statement:
+                self.texts.append(statement[self.name])
 
-    def speak(self, counter) -> None:
-        print(f'NEUTRAL: {self.texts[counter]}')
+    def speak(self) -> None:
+        print(f'{self.name.upper()}: {self.texts[self.counter]}')
+        self.counter += 1

@@ -18,7 +18,7 @@ class State(ABC):
         self._character = character
 
     @abstractmethod
-    def speak(self, counter) -> None:
+    def speak(self) -> None:
         pass
 
 
@@ -36,5 +36,5 @@ class Character:
     def currentState(self):
         return type(self._state).__name__
 
-    def speak(self, counter) -> None:
-        self._state.speak(counter)
+    def speak(self) -> None:
+        self._state.speak()

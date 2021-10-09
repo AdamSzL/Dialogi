@@ -1,12 +1,20 @@
 from character import State
-import enemy
-import neutral
+import json
 
 
 class Friend(State):
-    def __init__(self):
-        self.texts = ["Hello!", "Unfortunately, my sword was destroyed a few days ago :(",
-                      "Ahh, I don't have much money", "Wow! That's cute!", "See you!"]
+    def __init__(self, name):
+        file = open('texts.json')
+        self.allTexts = json.load(file)
+        self.texts = []
+        self.counter = 0
+        self.name = name
+        for statement in self.allTexts:
+            if 'friend' in statement:
+                for subStatement in statement['friend']:
+                    if self.name in subStatement:
+                        self.texts.append(subStatement[self.name])
 
-    def speak(self, counter) -> None:
-        print(f'FRIEND: {self.texts[counter]}')
+    def speak(self) -> None:
+        print(f'{self.name.upper()}: {self.texts[self.counter]}')
+        self.counter += 1

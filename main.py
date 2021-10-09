@@ -3,25 +3,15 @@ from enemy import Enemy
 from friend import Friend
 from player import Player
 from character import Character
+from conversation import Conversation
 
 
 if __name__ == '__main__':
-    player = Player()
+    player = Player('Lili')
 
-    # dialog z wrogiem
-    # character = Character(Enemy())
-    # player.startConversation(character)
+    character = Character(Neutral('Peter'))
 
-    # dialog z przyjazną podstacią
-    # character = Character(Friend())
-    # player.startConversation(character)
+    conversation = Conversation(player, character)
 
-    # dialog z neutralną postacią
-    character = Character(Neutral())
-    player.startConversation(character)
-
-    # zmiana stanu
-    character.setState(Enemy())
-    player.startConversation(character)
 
 

@@ -1,0 +1,25 @@
+[
+  { "Narrator": "W Wielkiej Sali wrzalo jak kazego sobotniego poranka. Gdy uczniowie Hogwartu zjedli juz swoje sniadania w gronie przyjaciol ze swoich domow, szybko rozeszli sie lub pozostali – by spedzic czas w mieszanym gronie. Nie trzeba bylo dlugo czekac, az rozweselona slizgonka, ktora nijak nie pasowala do Slytherinu, dosiadla sie do ponuraka z Ravenclawu." },
+  { "Lili": "Czesc! Jak Ci sie spalo, Peter?" },
+  { "Peter":  "Calkiem znosnie, choc budzil mnie deszcz za oknem" },
+  { "Lili":  "O! A ja uwielbiam slyszec za oknem deszcz. Szkoda, ze w dormitorium slizgonow to niemozliwe. Tez sie w nocy budzilam, ale z innego powodu" },
+  { "Peter":  "Z jakiego?" },
+  { "Peter":  "Calkiem znosnie, choc budzil mnie deszcz za oknem" },
+  { "Lili":  "O! A ja uwielbiam slyszec za oknem deszcz. Szkoda, ze w dormitorium slizgonow to niemozliwe. Tez sie w nocy budzilam, ale z innego powodu" },
+  { "Peter":  "Z jakiego?" },
+  {
+    "enemy": [
+      { "Lili": "Przez chrapanie Anny. Haha!" },
+      { "Peter": "Dziwne. Przeciez Anna nie chrapie." },
+      { "Lili": "Skad ty o tym wiesz?" },
+      { "Narrator":  "Peter uciekl spojrzeniem. Nie chcial sie przyznac, ze nim zaczal nauke w Hogwarcie, spedzal z Anna znacznie wiecej czasu. Na szczescie nie musial sie tlumaczyc, bo oto przed uczniami pojawil sie Pan Bonbon – najtlustszy i najwybredniejszy kocur w calej szkole, ktorego zjawienie sie – jak zawsze – zwiastowalo nowe przygody." }
+    ],
+    "friend": [
+      { "Lili":  "Przez sciane bylo slychac smiejacych sie slizgonow" },
+      { "Peter":  "U nas slychac tylko zadajaca zagadki kolatke" },
+      { "Lili": "Myslalam, ze ona zadaje te zagadki takim cichym i nastojowym glosem" },
+      { "Peter":  "Tak, ale tylko wtedy, gdy probuje sie na nie odgadnac dwa albo trzy razy. Z kazda kolejna nietrafiona odpowiedzia coraz bardziej skrzeczy" },
+      { "Narrator": "Lili zasmiala sie grzecznie, nie chcac po sobie pokazac rozczarowania. W jej wyobrazni kolatka zadajaca zagadki byla jednym z najciekawszych artefaktow Hogwartu i nie chciala dopuscic do siebie mysli, ze moze byc irytujaca. Na szczescie jej uwage od tego smutnego faktu odwrocil Pan Bonbon – najtlustszy i najwybredniejszy kocur w calej szkole, ktorego zjawienie sie – jak zawsze – zwiastowalo nowe przygody." }
+    ]
+  }
+]
